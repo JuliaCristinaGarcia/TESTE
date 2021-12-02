@@ -1,0 +1,213 @@
+span{
+    color: red;
+}
+
+label{
+    font-size: 1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+input.enviar{
+    background-color:#336699;
+    height:55px;
+    width:140px;
+    border-radius:5px;
+    font-size:18px;
+    color:white
+    }
+
+    input{
+        background-color:#336699
+        }
+
+
+        input[type=submit]{
+            background-color:#336699;
+            height:45px;
+            width:110px;
+            border-radius:5px;
+            font-size:18px;
+            color:white
+            }
+            
+            
+            
+            input[type=text], input[type=number], input[type=email], input[type=tel]{
+            background-color:green
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            *{
+                margin: 0 auto;
+            }
+            
+            table{
+                border: solid black 2px;
+                width: 50%;
+                font-family: sans-serif;
+                border-collapse: collapse;
+            }
+            
+            table td {
+                padding: 20px 20px 20px 90px;
+            }
+            
+            table tr th{
+                padding: 20px 0 20px 10px;
+            }
+            
+            caption{
+                font-family: sans-serif;
+                font-size: 2em;
+                font-weight: 60;
+                margin-bottom: 20px;
+                margin-top: 50px;
+            }
+            
+            tr.cinza{
+                background-color: #c0c0cc;
+            }
+            
+            tr{
+            height: 40px;
+            }
+            
+            td.tab{
+                border-left: solid black 1px;
+                border-right: solid black 1px;
+            }
+            
+            
+
+
+
+
+               <div class="cabecalho" id="topo">
+            <div class="logo">
+                 <img src="logoo.jpg" alt="logo da empresa">
+            </div>
+
+            <div class="menu">
+                <a class="sem" href="index.html" style="border-bottom: solid; padding-bottom: 5px;"> Home  </a>    
+                    <div class="barra">
+                      <button class="botao">Tipos de Mitologias <i class="fas fa-angle-down"></i></button>
+                        <div class="submenu" style="width: 15.909vw"> 
+                            <a class="opn" href="grega.html">Grega</a>
+                            <a class="opn" href="romana.html">Romana</a>
+                            <a class="opn" href="egipsia.html">Egípsia</a>
+                            <a class="opn" href="nortica.html">Nórtica</a>
+                            <a class="opn" href="celta.html">Celta</a>
+                            <a class="opn" href="japonesa.html">Japonesa</a>
+                            <a class="opn" href="brasileira.html">Brasileira</a>
+                        </div> 
+    
+                    </div>
+
+
+                <a class="sem" href="blog.html">Blog</a>
+
+                    <div class="barra">
+                      <button class="botao">Produtos  <i class="fas fa-angle-down"></i></button>
+                        <div class="submenu">
+                            <a class="opn" href="camisa.html" style= "margin: 0 0.366vw 0 0.366vw;">Moda</a>
+                            <a class="opn" href="sapatos.html" style= "margin: 0 0.366vw 0 0.366vw;">Decoração</a>
+                            <a class="opn" href="livro.html" style= "margin: 0 0.366vw 0 0.366vw;">Livros</a>
+                        </div> 
+                    </div>
+        
+                <a class="sem" href="nos.html">Sobre Nós</a>
+
+        
+                    <div class="barra">
+                     <button class="botao">Idiomas<i class="fas fa-angle-down"></i></button>
+                       <div class="submenu"> 
+                            <a class="opn" href="index.html" style="color: rgb(255 241 241 / 85%);  background: rgba(131, 130, 130, 0.85);  border-radius: 24%; margin: 5px 5px 5px 5px;">Português</a>
+                            <a class="opn" href="traducao.html">Inglês</a>
+                       </div> 
+        
+                    </div>
+
+             </div>
+
+
+
+            <div class="menucel">   
+                <input type="checkbox" id="check">
+                <label for="check" class="checkbtn">
+                    <i class="fas fa-bars"></i>
+                </label>       
+                
+                <ul class="men">
+                    <li>
+                        <a href="index.html"  style="border-bottom: solid; padding-bottom: 3px; "><i class="fas fa-home"></i> Home  </a>
+                    </li>
+
+                    
+                    <li>
+                        <a class="a" href="#tipos"> <i class="fas fa-dragon"></i> Tipos de Mitologia</a>
+                    </li>
+
+
+                    <li>
+                        <a href="blog.html"><i class="fas fa-chalkboard-teacher"></i> Blog</a>
+                    </li>
+
+
+                    <li>
+                        <a href="produtos.html"><i class="fas fa-shopping-basket"></i> Produtos </a>
+                    </li>    
+
+
+                    <li>
+                        <a href="nos.html"><i class="fas fa-users"></i>  Sobre Nós</a>
+                    </li>
+        
+                    
+                    <li>
+                        <a href="traducao.html"> <i class="fas fa-language"></i> Versão em Inglês</a>
+                    </li>
+
+                    
+                    <li>
+                        <a href="logi.html"> <i class="fas fa-user-circle"></i> Login</a>
+                    </li>
+                </ul>
+            </div>
+
+
+    </div>   
+
+
