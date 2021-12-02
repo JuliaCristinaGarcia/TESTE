@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="_ntc.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600;700;900&display=swap" rel="stylesheet">   
+    <script src="https://kit.fontawesome.com/dadd998619.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;1,500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="shortcut icon" href="imagens/free.jpg">   
+    <title>Mitologia Nórdica - Heróis</title>
+  </head>
+  
+  <style>
+    div.texto h2{
+  text-align: center;
+}
+
+.texxt_titulo {
+    width: 100%;
+    text-align-last: center;
+    margin-top: 20vw;
+}
+
+img.img_textr {
+    width: 100%;
+    filter: brightness(0.5);
+    height: 80vh;
+}
+
+div.texto h2 {
+    text-align: center;
+}
+
+h2.textr_img {
+  text-align: center;
+  color: white;
+  font-size: 60px;
+  margin: -30vw 0vw 0vw 15vw;
+  position: absolute;
+}
+
+div.celru{
+  display: none;
+}
+
+
+
+@media only screen and (max-width: 980px){
+  h2.textr_img {
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    margin: -42vw 0vw 0vw 10vw;
+    position: absolute;
+}
+}
+
+@media only screen and (max-width: 870px){
+  h2.textr_img {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    margin: -42vw 0vw 0vw 10vw;
+    position: absolute;
+}
+}
+
+
+@media only screen and (max-width: 720px){
+  h2.textr_img {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    margin: -42vw 0vw 0vw 10vw;
+    position: absolute;
+}
+}
+@media only screen and (max-width: 600px){
+
+  h2.textr_img {
+    text-align: center;
+    color: white;
+    font-size: 7vw;
+    position: absolute;
+  }
+
+  div.complu{
+    display: none;
+  }
+
+  div.celru{
+    display: block;
+  }
+
+  img.img_textr {
+    width: 100%;
+    filter: brightness(0.5);
+    height: 60vh;
+}
+
+}
+
+@media only screen and (max-width: 500px){
+img.img_textr {
+    width: 90%;
+    filter: brightness(0.5);
+    height: 50vh;
+}}
+
+
+
+  </style>
+<body>
+
+  
+  <div class="sidebar close" style="z-index: 99;">
+    <div class="logo-details">
+      <img src="imagens/logo.png" style="max-width: 45px; width: auto;  margin: 0vw 0vw 0vw 5px;" alt="">
+      <span class="logo_name">Woodcell</span>
+    </div>
+    <ul class="nav-links">
+      <li>
+        <a href="index.html">
+          <i class="fas fa-home"></i>
+          <span class="link_name">Home</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="index.html">Home</a></li>
+        </ul>
+      </li>
+      <li>
+        <div class="iocn-link">
+          <a href="historia_ntc.html">
+            <i class="fas fa-history"></i>
+            <span class="link_name">Histórias</span>
+          </a>
+          <i class='bx bxs-chevron-down arrow' ></i>
+        </div>
+        <ul class="sub-menu">
+          <li><a class="link_name" href="historia_ntc.html">Histórias</a></li>
+          <li><a href="historia1_ntc.html">A Criação</a></li>
+          <li><a href="historia2_ntc.html">Os 9 Reinos</a></li>
+          <li><a href="historia3_ntc.html">Ragnarök</a></li>
+          <li><a href="historia4_ntc.html">Curiosidades</a></li>
+        </ul>
+      </li>
+
+      <li>
+        <a href="herois_ntc.html">
+          <i class="fas fa-mask"></i>
+          <span class="link_name">Heróis</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="herois_ntc.html">Heróis</a></li>
+        </ul>
+      </li>
+
+      <li>
+        <div class="iocn-link">
+          <a href="deuses_ntc.html">
+            <i class="fas fa-landmark"></i>
+            <span class="link_name">Deuses</span>
+          </a>
+          <ul class="sub-menu blank">
+            <li><a class="link_name" href="deuses_ntc.html">Deuses</a></li>
+          </ul>
+        </div>
+      </li>
+      <li>
+        <a href="criaturas_ntc.html">
+          <i class="fas fa-pastafarianism"></i>
+          <span class="link_name">Criaturas</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="criaturas_ntc.html">Criaturas</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="importancia_ntc.html">
+          <i class="fas fa-handshake"></i>
+          <span class="link_name">Importancia</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="importancia_ntc.html">Importancia</a></li>
+        </ul>
+      </li>
+</ul>
+  </div>
+
+
+
+  <section class="home-section">
+    <div class="home-content">
+      <i class='bx bx-menu' ></i>
+      <span class="text"></span>
+    </div>
+  </section>
+
+  <script src="mobile-navbar.js"></script>
+
+
+  <div class="texto" style=" z-index: 1;
+    margin: -40vw 4vw 0vw 12vw;
+    padding: 0px 0px 1px 0px;
+    position: absolute;
+    line-height: 2.5;
+    position: relative;
+">
+     <div class="text_titulo">
+        <img class="img_text" src="heroi.jpg" alt="">
+        <h2 class="text_img" id="criacao">Heróis da Mitologia Grega</h2>       
+     </div>
+
+     <p>Mais do que apenas deuses e deusas, a mitologia Grega conta a história de heróis e heroínas lendários cujas façanhas são conhecidas e repassadas até hoje. Esses heróis ou semideuses são metade humanos e metade deuses, pois são personagens gerados por relações entre essas duas classes, por isso ocupam uma posição intermediária entre elas. Esses seres possuem poderes especiais relacionados à força, inteligência e velocidade que os humanos não apresentam, porém, também são mortais. Com o uso de suas capacidades especiais, os heróis aparecem em várias histórias famosas da mitologia da Grécia Antiga, tendo sido capazes de vencerem monstros, combaterem guerreiros inimigos e realizarem missões impossíveis aos humanos. Para conhecer um pouco mais sobre esses guerreiros, preparamos uma lista com 10 dos principais heróis mitológicos.</p>
+
+
+     <div class="texxt_titulo">
+      <img class="img_textr" src="Héracles.jpg" alt="">
+      <h2 class="textr_img" id="criacao">Héracles</h2>       
+   </div>
+
+   <p>Hércules foi um grande herói da Mitologia Grega. Filho de Zeus (deus dos deuses) e da mortal Alcmena, que era esposa de Anfitrião.
+
+    Segundo o mito, aproveitando o fato de Anfitrião estar ausente, em batalha, Zeus se caracterizou como ele, e se fez passar pelo mesmo. Ao retornar da batalha, Anfitrião descobriu a traição, e, irado construiu uma grande fogueira para queimar Alcmena viva. Zeus então, mandou nuvens de chuva para apagar o fogo, o que acabou fazendo com que Anfitrião aceitasse a situação. Hércules, portanto, nasceu do encontro de Zeus e Alcmena.</p>
+    <p>
+      A deusa Hera, esposa de Zeus, enciumada pela traição, enviou duas serpentes para matar Hércules ainda no berço. Não teve exito, pois ainda bebê, Hércules estrangulou as serpentes com as próprias mãos.
+    </p>
+
+    <p>Quando adulto, Hera provocou em Hércules um ataque de fúria, que o levou a matar sua esposa Mégara e seus três filhos. Como punição pelo crime, o oráculo de Delfos o incumbiu de doze tarefas de extremo risco. Essas tarefas são chamadas de “Os doze trabalhos de Hércules”.</p>
+
+   <div class="texxt_titulo">
+    <img class="img_textr" src="Aquiles.jpg" alt="">
+    <h2 class="textr_img" id="criacao">Aquiles</h2>       
+ </div>
+
+ <p>Aquiles foi o herói grego que mais se distinguiu na guerra de Tróia, celebrado nos versos de Homero. Conta a lenda que o único ponto vulnerável no seu corpo era o calcanhar e que morreu vítima de uma flecha envenenada que lhe atingiu exatamente o calcanhar.</p>
+
+ <p>Aquiles era filho do mortal Peleu, rei dos mirmidões da Tessália e de Tétis, uma ninfa marinha. Ao nascer, sua mãe o banhou no rio Estige, tornando-o invulnerável em todo o corpo, menos no calcanhar, que se tornou seu ponto fraco – o proverbial “calcanhar de Aquiles”.
+
+  Sua lenda ganhou várias versões. Segundo uma delas, sua educação foi entregue ao Centauro Quiron, no monte Pélion. O centauro o alimentou com mel de abelhas, tutano de ursos e javalis e vísceras de leão.
+  
+  Aquiles aprendeu a caçar, a adestrar cavalos, iniciou-se na medicina e na música. Teve também como preceptor, Fénix, um grande sábio, que o instruiu na arte da oratória e da guerra.
+  
+  Outra versão conta que uma profecia o condenava a morrer jovem no campo de batalha, uma vez que Tróia só poderia ser tomada com sua ajuda. Para mantê-lo a salvo, Tétis levou Aquiles para ser criado como menina, entre as filhas do rei Licomedes, na ilha de Ciros.
+  
+  Ulisses (um dos heróis da Guerra de Troia, cujo nome grego é Odisseu), sabedor de que só com a ajuda de Aquiles vencera a guerra, recorreu a um ardil para identifica-lo entre as moças. Ao simular um ataque, as filhas do rei fugiram, enquanto Aquiles, logo pega uma espada.</p>
+ <p>Aquiles resolve então marchar com os gregos sobre Tróia. No décimo ano de luta, capturou a jovem Briseida, que lhe foi tomada por Agamenon, chefe supremo dos gregos. Ofendido, Aquiles resolve abandonar a guerra.
+
+  Seu grande amigo Pátroclo foi em seu lugar. Aquiles cedeu-lhe a armadura que usava, porém, Pátroclo foi morto por Heitor, filho de Príamo, o rei de Troia.
+  
+  Furioso e sedento de vingança, Aquiles reconciliou-se com Agamenon. De armadura nova, retornou à luta, matou Heitor e arrastou seu corpo em torno da sepultura de Pátroclo.</p>
+ <p>Pouco depois, Páris, irmão de Heitor, lançou contra Aquiles uma flecha envenenada que atingiu exatamente o seu ponto fraca, o calcanhar e matou-o.
+
+  Em seu poema “A Ilíada”, o poeta grego Homero narra a Guerra de Troia e as proezas de Aquiles, um dos principais guerreiros. Aquiles também é citado na obra “Odisseia”, de Homero.
+  
+  Com o passar do tempo, a expressão “calcanhar de Aquiles” passou a ser usada para indicar o ponto vulnerável das pessoas.</p>
+
+
+ 
+ <div class="texxt_titulo">
+  <img class="img_textr" src="Teseujpg.jpg" alt="">
+  <h2 class="textr_img" id="criacao">Teseu</h2>       
+</div>
+
+<p>Herói grego ateniense, Teseu era filho de Egeu e Etra, seu nome significa "o homem forte por excelência". É o maior herói de Atenas e um dos maiores heróis gregos. Os fatos surpreendentes que marcam sua vida vêm desde sua infância, pois Egeu recomendou a Etra que só revelasse ao menino a identidade do pai quando ele fosse capaz de levantar uma pesada rocha sob qual Egeu escondera sua espada. O menino nasceu forte e sua força a todos surpreendia, por isso Etra revela ao jovem, com apenas 16 anos, e ele realiza a façanha e vai ao encontro do pai.</p>
+<p>Chegando a Atenas, Teseu revela-se ao pai, que só é capaz de reconhecê-lo porque o jovem trazia consigo a espada que fora escondido por Egeu.
+
+  O encontro ainda tentou ser impedido por Medeia, feiticeira e esposa de Egeu, que tentou influenciar o marido a envenenar Teseu, já que este se mostrara com grande força e ao longo do caminho a Atenas matou vários salteadores e bandidos. Mas, logo que Egeu reconheceu a espada que o filho trazia, Medeia fugiu temendo um castigo.</p>
+<p>Nessa época, Atenas pagava um pesado tributo a Creta. Anualmente, Atenas enviava jovens que deveriam ser levados a Creta para serem colocados no labirinto e serem devorados pelo monstro, que era um homem com a cabeça de touro.
+
+  Teseu, quando soube do que acontecia, fez questão de ser um dos jovens enviados a Creta, a fim de vencer o monstro e libertar Atenas. O rei Egeu concordou, mas preocupado com o retorno do filho, pediu-lhe um sinal, que se tudo corresse bem, o navio deveria voltar com velas brancas, mas caso contrário, as velas voltariam negras.
+  
+  Logo ao chegar em Creta, Teseu conhece Ariadne, filha de Minos e Pasíafe, que se apaixona pelo herói. Temendo a morte do amado, Ariadne dá a ele um novelo de fio para marcar o caminho de volta do labirinto, assim, logo que combatesse com o monstro, poderia voltar pelo caminho sem se perder.  E assim aconteceu. Teseu mata o monstro e volta do labirinto a salvo.
+  
+  </p>
+
+
+
+  <div class="texxt_titulo">
+    <img class="img_textr" src="orfeu_cel.jpg" alt="">
+    <h2 class="textr_img" id="criacao">Orfeu</h2>       
+  </div>
+
+  
+  <p>Orfeu era filho da musa Calíope e, segundo alguns, do deus Apolo, que presenteou o filho com uma lira. Quando Orfeu a tocava, os pássaros paravam para escutar, os animais selvagens perdiam o medo e as árvores se curvavam para pegar os sons que o vento trazia</p>
+  <p>Um dos mitos mais populares é o de Orfeu. Ele teria sido o mais talentoso dentre todos os músicos. Orfeu era filho da musa Calíope e, segundo alguns, do deus Apolo, que presenteou o filho com uma lira. Quando Orfeu a tocava, os pássaros paravam para escutar, os animais selvagens perdiam o medo e as árvores se curvavam para pegar os sons que o vento trazia. Orfeu se apaixonou pela bela Eurídice e se casaram. Ela era tão bonita que despertou o interesse de outro homem, Aristeu. Depois de recusar Aristeu, este passa, contudo, a persegui-la. Durante a fuga, Eurídice tropeça em uma serpente. O animal pica Eurídice - e, sob o efeito do veneno, a jovem morre.</p>
+  <p>Desesperado e sofrendo, Orfeu foi até o mundo dos mortos com sua lira para resgatar Eurídice. A canção emocionada que entoa convence o barqueiro Caronte a levá-lo e, em seguida, faz adormecer Cérbero, o cão de três cabeças que vigia a entrada do mundo inferior.</p>
+  <p>Quando Orfeu chega perante Hades, o deus do submundo fica muito irritado ao ver que um vivo conseguira penetrar no mundo dos mortos, mas a música de Orfeu o comove. Perséfone, que estava com Hades, o convence, então, a atender ao pedido do músico. Hades concorda, mas coloca uma condição: Eurídice pode sair seguindo Orfeu, mas ele só deve olhar para ela novamente quando estiverem à luz do sol. Orfeu parte, então, pela trilha íngreme que leva para fora do mundo inferior, tocando músicas de alegria e celebração, a fim de guiar a sombra de Eurídice de volta à vida. Ele não olha nenhuma vez para trás, até atingir a luz do sol. Mas, então, vira-se, procurando se certificar de que Eurídice o está seguindo. Por um momento ele a vê, perto da saída do túnel escuro, perto da vida outra vez. Mas, enquanto ele olha, ela se torna de novo um fantasma, seu grito final de amor e pena não mais do que um suspiro na brisa que sai do mundo dos mortos. Ele a perde para sempre.</p>
+
+
+
+
+
+
+<div class="texxt_titulo">
+  <img class="img_textr" src="Odisseu.jpg" alt="">
+  <h2 class="textr_img" id="criacao">Odisseu</h2>       
+</div>
+  <p>Odisseu é um personagem da mitologia grega. Também conhecido como Ulisses, foi criado por Homero, originando o que conhecemos por “Odisséia”, uma história que relata as aventuras e desventuras de um rei guerreiro, entre as graças e ira dos deuses.
+    O personagem é Rei de Ítaca, casado com Penélope, com quem teve um filho chamado Telêmaco, foi apaixonado por sua cunhada Helena, esposa de Menelau. Idealizador do “Cavalo de Tróia” foi responsável pela entrada do exército grego, garantindo o sucesso da batalha.</p>
+
+  <p>Na viagem de volta, Odisseu e sua tripulação enfrentaram tempestades terríveis. Desembarcaram na terra dos Cícones na Trácia, de onde foram expulsos. Enfrentou ventanias até que os seus navios foram parar numa terra de comedores de lótus (Lotófagos), e teve que arrancar à força sua tripulação de lá, porque todos ficaram viciados na flor, que causava esquecimento e falta de vontade de voltar ao mar</p>
+
+  <p>Algum tempo depois, eles chegaram à Ilha paradisíaca dos Ciclopes. Um lugar encantado, reinado pelo ciclope Polifemo, filho de Posídon (Deus do Mar), que após abrigá-los em uma linda gruta, devorou alguns de seus tripulantes.
+
+    Odisseu então, estrategista que era, como se nada tivesse acontecido, embebedou Polifemo, que após cair no sono, teve seu único olho furado. No dia seguinte, cego, ele tirou a pedra da porta da gruta e não pôde ver quando os homens saíram escondidos junto com os animais que ali estavam. Enquanto isso, Posídon, pai de Polifemo jurou sua ira por Odisseu ter furado o olho de seu filho.</p>
+
+    <p>
+      Quando os navios aportaram na Ilha de Éolo (Deus dos Ventos), eles ganharam de presente um odre que continha poderosos ventos. Uma suave brisa soprou arremessando-os no sentido de Ítaca, mas os tripulantes do navio, curiosos, achando que o odre poderia conter riquezas, abriram-no libertando os ventos furiosos que os empurraram de volta para a ilha de Éolo. Desta vez, o Deus dos Ventos, recusou-se a ajudá-los. Sendo assim, com muito sacrifício, seguiram novamente viagem, até que foram parar numa terra de gigantes antropófagos “Lestrigões” que logo de cara devoraram seu mensageiro e atiraram pedras contra eles. Deste ataque, somente se salvou o navio de Odisseu, que escapou em alta velocidade indo parar na Ilha de Eéia, onde vivia a feiticeira Circe, filha de Hélio (Deus Sol).
+
+Parte da tripulação de Odisseu desembarcou e foi recebida com comida e bebida encantadas por uma poção que os transformaram em porcos, indo parar no chiqueiro. Um deles escapou e foi avisar Odisseu, que prontamente se dirigia ao castelo para salvá-los, quando encontrou Hérmes (protetor dos viajantes), que lhe ofereceu uma planta que continha o antídoto contra os feitiços da bruxa e o aconselhou a ameaçá-la com firmeza.
+
+
+    </p>
+
+    <p>Quando Circe viu que seu encanto não estava mais fazendo efeito, ameaçada pela espada de Odisseu, ela desfez o encanto e ainda hospedou a todos, chegando a ter um romance com Odisseu, onde nasceu um filho chamado Telégono...</p>
+
+
+<div class="texxt_titulo">
+  <img class="img_textr" src="perseu.jpg" alt="">
+  <h2 class="textr_img" id="criacao">Perseu</h2>       
+</div>
+
+<p>Perseu era um filho de uma mortal, Danae, e do grande deus Zeus, rei do Olimpo. O pai de Danae, o rei Acrísio, havia sido informado por um oráculo de que um dia seria morto por seu neto e, aterrorizado, aprisionou a filha e afastou todos os seus pretendentes. Mas Zeus era deus e desejava Danae: entrou na prisão disfarçado em chuva de ouro, e o resultado dessa união foi Perseu. Ao descobrir que, apesar de suas precauções, tinha um neto, Acrísio fechou Danae e o bebê numa arca de madeira e os lançou ao mar, na esperança de que se afogassem.
+
+  Mas Zeus enviou ventos favoráveis, que sopraram mãe e filho pelo mar e os levaram suavemente à costa. A arca parou numa ilha, onde foi encontrada por um pescador. O rei que comandava a ilha recolheu Danae e Perseu e lhes deu abrigo. Perseu cresceu forte e corajoso e, quando sua mãe se afligiu com as indesejadas investidas amorosas do rei, o jovem aceitou o desafio que este lhe fez: o de lhe levar a cabeça da Medusa, uma das Górgonas. Perseu aceitou essa missão perigosa não porque ambicionasse alguma glória pessoal, mas porque amava a mãe e estava disposto a arriscar a vida para protegê-la.</p>
+
+  
+  <p> A Górgona Medusa era tão hedionda que quem olhasse seu rosto transformava-se em pedra. Perseu precisaria da ajuda dos deuses para vencê-la e Zeus, seu pai, certificou-se de que essa assistência lhe fosse oferecida: Hades, o rei do mundo subterrâneo, emprestou-lhe um capacete que tornava invisível quem o usasse; Hermes, o mensageiro divino, deu-lhe sandálias aladas; e Atena lhe deu uma espada e um escudo. Perseu pôde fitar o reflexo da Medusa e, assim, decepou-lhe a cabeça, sem olhar diretamente para seu rosto medonho. Com a cabeça monstruosa seguramente escondida num saco, o herói voltou para casa. Na viagem, avistou uma bela donzela acorrentada a um rochedo à beira-mar, à espera da morte pelas mãos de um assustador monstro marinho. Perseu soube que ela se chamava Andrômeda e estava sendo sacrificada ao monstro porque sua mãe havia ofendido os deuses. Comovido por sua aflição e beleza, o herói apaixonou-se por ela e a libertou, transformando o monstro marinho em pedra com a cabeça de Medusa. Em seguida levou Andrômeda para conhecer sua mãe, que, na ausência dele, tinha sido tão atormentada pelas investidas do rei depravado que, desesperada, tinha ido se refugiar no templo de Atena.</p>
+
+  <p>
+
+    Mais uma vez Perseu ergueu bem alto a cabeça da Medusa e transformou em pedra os inimigos da mãe. Depois, entregou a cabeça a Atena, que a incrustou em seu escudo, onde ela se tornou o emblema da deusa para sempre. Perseu também devolveu os outros presentes aos deuses que os haviam oferecido. Daí em diante, ele e Andrômeda viveram em paz e harmonia e tiveram muitos filhos. Sua única tristeza foi que, um dia, ao participar dos jogos atléticos, ele arremessou um disco que foi levado a uma distância excepcional por uma rajada de vento. O disco atingiu e matou acidentalmente um velho. Tratava-se de Acrísio, o avô de Perseu e, com isso, finalmente, cumpriu-se o oráculo do qual um dia o velho tentara se livrar. Mas Perseu não tinha um espírito rancoroso ou vingativo e por causa dessa morte acidental, não quis governar o reino que era seu por direito. Em vez disso trocou de reino com seu vizinho, o rei de Argos e construiu para si uma poderosa cidade, Micenas, onde viveu uma longa vida com sua família, com amor e honradez.</p>
+
+
+
+
+<div class="texxt_titulo">
+  <img class="img_textr" src="jasao.jpg" alt="">
+  <h2 class="textr_img" id="criacao">Jasão</h2>       
+</div>
+
+<p>Filho de Esão com Alcímede ou Polímede, já que há versões diversas sobre quem seria de fato sua mãe, Jasão era proveniente da Tessália, uma região localizada na parte central da Grécia banhada pelo mar a Leste. De acordo com a tradição, Jasão teria sido criado pelo centauro Quíron, um homem cuja metade de baixo de seu corpo era de cavalo. Quíron era diferente dos tradicionais centauros com fama de bebedores e indisciplinados, ele era inteligente, civilizado e bondoso, famoso e reconhecido por sua inteligência superior a dos seus pares, especialmente no que se referia ao trato com a medicina.
+
+</p>
+<p>Jasão era membro de uma linhagem nobre. Seu avô, Creteu, era fundador do trono de Lolcos, uma cidade da mitologia grega localizada também na Tessália. O trono foi passado para o tio de Jasão, Pélias, que temia a profecia de ser morto por seu sobrinho. Para fugir de seu suposto destino, Pélias enviou Jasão para uma missão quase impossível, que era trazer o Velocino de Ouro, a lã de ouro do carneiro alado Crisómalo, de Cólquida, região localizada no sul do Cáucaso, muito distante. Essa era a condição estipulada por Pélias para que seu sobrinho restituísse o trono. Jasão foi então para Argo, uma cidade na Península do Peloponeso, para construir sua nau. Lá, ele reúne uma tripulação de heróis para acompanha-lo que ficaria conhecida como argonautas</p>
+<p>Jasão e os argonautas enfrentaram vários desafios até, finalmente, chegarem à Cólquida. Para piorar, o soberano do local, o Rei Eetes, exigiu que Jasão cumprisse várias tarefas para que tivesse o direito de obter o Velocino de Ouro. Entre as tarefas exigidas estavam arar um campo com touros que cuspiam fogo, semear os dentes de um dragão, lutar com o exército que brotaria desses dentes semeados e passar pelo dragão que fazia a guarda do Velocino. Para surpresa do rei, Jasão realizou completamente todas as tarefas e, enfim, obteve o que fora buscar. No entanto, o herói grego se enamorou pela filha do rei, Medeia, e fugiu com ela buscando o caminho de casa. No meio do trajeto, Jasão teve de enfrentar mais uma série de desafios por conta disso. E, ao voltar para Lolco, Medeia planeja a morte de Pélias para fazer cumprir a profecia. Pélias ficou surpreso com a volta de Jasão, pois achava que sua tarefa era impossível de ser realizada. Ao fim, foi morto e seu trono passou para seu filho Acasto, que foi morto pelas próprias filhas, também enganadas por Medeia. Só então Jasão sucedeu como soberano no trono de Lolco.</p>
+<p>Passado algum tempo, Jasão se retirou para Corinto e, após dez anos de casamento com Medeia, o herói grego a abandonou para se casar com a filha do rei de Corinto, Gláucia. Medeia, que já havia demonstrado sua capacidade de arquitetar a morte de seus rivais, vingou-se de Jasão matando Gláucia e os próprios filhos que tivera com o grego de Tessália. Ela fugiu em seguida para Atenas, onde se casou com o rei Egeu e teve um filho, Medo. Mãe e filho retornaram para Cólquida e descobriram que Eetes havia sido deposto por seu filho Perses. Mais uma vez, Medeia, agora junto com seu filho, planeja outra morte e entrega o reino a Medo. Enquanto isso, Jasão vivia em descrédito e tristeza quando, muitos anos depois, foi morto por um pedaço de madeira.</p>
+
+
+
+
+<div class="texxt_titulo">
+  <img class="img_textr" src="Belerofonte.jpg" alt="">
+  <h2 class="textr_img" id="criacao">Belerofonte</h2>       
+</div>
+
+<p>Belerofonte foi um herói da mitologia grega, além disso era um semideus com muitas qualidades: charmoso, forte e um guerreiro muito valente. Era filho de uma mulher humana, juntamente com o Deus Poseidon, mas por muito tempo quem o criou foi Glauco, um outra pessoa que também tinha relacionamento com Eurynome, sua mãe.</p>
+
+
+
+
+<div class="texxt_titulo">
+  <img class="img_textr" src="Cadmo.jpg" alt="">
+  <h2 class="textr_img" id="criacao">Cadmo</h2>       
+</div>
+
+<p>Cadmo, filho de Agenor rei da Fenícia recebeu ordens do pai para resgatar sua irmã Europa que Júpiter havia raptado e ainda lhe proibiu de voltar sem ela. Por um longo período procurou Europa em lugares distantes, mas não a encontrou.
+
+  Não querendo voltar sem a irmã, consultou o oráculo de Apolo e então parou de procurá-la e seguiu as instruções do oráculo de vigiar uma vaca e segui-la até que esta caísse cansada. No local onde a vaca caiu, foi fundada a cidade de Cadméia.</p>
+
+  <p>Em agradecimento a Júpiter, Cadmo mandou seus servos procurarem água pura para oferecer uma cerimônia religiosa, mas estes foram mortos por uma serpente que vigiava o lago. Quando Cadmo veio à procura destes, encontrou apenas fragmentos de membros e o grande monstro saciado. Mesmo estando só e levemente armado, conseguiu subjugar a serpente e semeou os dentes do animal no solo. Deles surgiu um grupo de guerreiros, armados com espadas e lanças. Teriam atacado Cadmo, se este não tivesse tido a idéia de lançar uma grande pedra no meio deles; assim, começaram a atacar uns aos outros, parando apenas quando restavam apenas cinco deles; estes cinco se juntaram a Cadmo e se tornaram os fundadores das cinco grandes famílias de Tebas.</p>
+  <p>Zeus permitiu que Cadmo se casasse com Harmonia, filha de Ares e Afrodite e o casamento foi prestigiado por vários deuses. Cadmo então, tornou-se rei de Tebas e seu reinado foi próspero e tranqüilo. Civilizou a Beócia e ensinou o alfabeto aos gregos. No final de sua vida teve seus filhos e netos mortos como castigo por ter matado a serpente que era consagrada a Marte. Cadmo juntamente com Harmonia foram transformados em serpentes.</p>
+
+
+<div class="complu">
+
+  <div class="texxt_titulo">
+    <img class="img_textr" src="atalanta-a-caçadora.jpg" alt="">
+    <h2 class="textr_img" id="criacao">Atalanta</h2>       
+  </div>
+
+
+  <p>A heroína foi abandonada ao nascer pelo pai e foi encontrada e criada por caçadores que haviam determinado seu caminho. Depois de provar seu valor com sucesso na caça ao javali da Calidônia , seu pai a aceitou de volta e lhe ofereceu um lugar em seu palácio. A pedido, de seu pai, para se casar, ela propôs um difícil desafio para os pretendentes. Qualquer um que quisesse se casar com a bela caçadora tinha que vencê-la em sua corrida favorita, mas se ele perdesse, seria morto.
+  </p>
+    <p>
+      Apenas um conseguiu e quando Atalanta finalmente se casou e começou a desfrutar de seu novo estilo de vida, o destino mudou as coisas.</p>
+      <p>Atalanta e Hipômenes se casaram e estavam apenas se adaptando ao seu novo estilo de vida. Eles começaram a gostar um do outro e das idades que os aguardavam. Mas, como diz o mito, em vez de viver uma vida feliz, Hipômenes foi infligido com a memória curta pelo destino e, portanto, se esqueceu de homenagear Afrodite, que tornou esse casamento possível.
+  
+        Como vingança, a deusa e os puniu com um feitiço de paixão ao casal enquanto eles oravam no templo de Zeus . Eles fizeram amor apaixonado dentro do templo, desonrando Zeus que, mais tarde em seu ato de justiça, os transformou em leões e, portanto, nunca mais poderiam acasalar porque os antigos gregos acreditavam que os leões só podem acasalar com leopardos.</p>
+</div>
+
+
+<div class="celru">
+
+  <div class="texxt_titulo">
+    <img class="img_textr" src="atlanta_cel.jpg" alt="">
+    <h2 class="textr_img" id="criacao">Atlanta</h2>       
+  </div>
+
+  <p>A heroína foi abandonada ao nascer pelo pai e foi encontrada e criada por caçadores que haviam determinado seu caminho. Depois de provar seu valor com sucesso na caça ao javali da Calidônia , seu pai a aceitou de volta e lhe ofereceu um lugar em seu palácio. A pedido, de seu pai, para se casar, ela propôs um difícil desafio para os pretendentes. Qualquer um que quisesse se casar com a bela caçadora tinha que vencê-la em sua corrida favorita, mas se ele perdesse, seria morto.
+</p>
+  <p>
+    Apenas um conseguiu e quando Atalanta finalmente se casou e começou a desfrutar de seu novo estilo de vida, o destino mudou as coisas.</p>
+    <p>Atalanta e Hipômenes se casaram e estavam apenas se adaptando ao seu novo estilo de vida. Eles começaram a gostar um do outro e das idades que os aguardavam. Mas, como diz o mito, em vez de viver uma vida feliz, Hipômenes foi infligido com a memória curta pelo destino e, portanto, se esqueceu de homenagear Afrodite, que tornou esse casamento possível.
+
+      Como vingança, a deusa e os puniu com um feitiço de paixão ao casal enquanto eles oravam no templo de Zeus . Eles fizeram amor apaixonado dentro do templo, desonrando Zeus que, mais tarde em seu ato de justiça, os transformou em leões e, portanto, nunca mais poderiam acasalar porque os antigos gregos acreditavam que os leões só podem acasalar com leopardos.</p>
+</div>
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+<div class="rodape">
+  <footer>
+    <div class="waves">
+      <div class="wave" id="wave1"></div>
+      <div class="wave" id="wave2"></div>
+      <div class="wave" id="wave3"></div>
+      <div class="wave" id="wave4"></div>
+    </div>
+    <ul class="social_icon">
+      <li><a href="https://m.facebook.com/groups/715612968565248?group_view_referrer=search"><ion-icon name="logo-facebook"></ion-icon></a></li>
+      <li><a href="https://twitter.com/Don_Foca"><ion-icon name="logo-twitter"></ion-icon></a></li>
+      <li><a href="https://www.instagram.com/mitologias.br/"><ion-icon name="logo-instagram"></ion-icon></a></li>
+      <li><a href="https://www.youtube.com/channel/UCuxm5eQORz5-1oKQ1eiFYgg"><ion-icon name="logo-youtube"></ion-icon></a></li>
+      <li><a href="https://www.linkedin.com/feed/"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+    </ul>
+
+    <ul class="rodape_menu">
+      <li><a href="../../PRINCIPAL/index.html">Home</a></li>
+      <li><a href="../../o que é mitologia/oque.html">Mitologias</a></li>
+      <li><a href="../../blogue/blog.html">Blog</a></li>
+      <li><a href="../../produtos/produtos.html">Produtos</a></li>
+      <li><a href="../../sobre nós/nos.html">Sobre Nós</a></li>
+      <li><a href="../../login/login.html">Login</a></li>
+    </ul>
+
+    <p>©2021 Julia Garcia</p>
+  </footer>
+</div>
+
+
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  
+       <script  src="https://unpkg.com/aos@next/dist/aos.js "> </script> 
+      <script> 
+        AOS.init({
+          duration: 1000,
+        }); 
+      </script>
+
+
+</body>
+</html>
