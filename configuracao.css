@@ -1548,7 +1548,7 @@ div.image img{
     
 
   .submenu {
-    background: #F7F4F2;
+    background: #fff;
     position: absolute;
     top: 70px;
     left: 0;
@@ -1604,7 +1604,7 @@ div.image img{
       display: block;
       max-width: 270px;
       width: 100%;
-      background:  #F7F4F2;
+      background:  #fff;
       line-height: 40px;
       padding: 20px;
       box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
@@ -2039,7 +2039,7 @@ div.info{
       left: 0;
       width: 100vw;
       height: 70px;
-      background-color: #F7F4F2;
+      background-color: #fff;
       box-shadow: 0 1px 2px rgb(0 0 0 / 20%);
       z-index: 99;
       position: fixed;
@@ -2124,7 +2124,7 @@ nav.nav {
   left: 0;
   width: 100vw;
   height: 70px;
-  background-color: #F7F4F2;
+  background-color: #fff;
   box-shadow: 0 1px 2px rgb(0 0 0 / 20%);
   z-index: 99;
   position: fixed;
@@ -2198,7 +2198,7 @@ nav.nav {
   left: 0;
   width: 100vw;
   height: 60px;
-  background-color: #F7F4F2;
+  background-color: #fff;
   box-shadow: 0 1px 2px rgb(0 0 0 / 20%);
   z-index: 99;
   position: fixed;
@@ -2266,7 +2266,7 @@ nav.nav {
   left: 0;
   width: 93%;
   height: 70px;
-  background-color: #F7F4F2;
+  background-color: #fff;
   box-shadow: 0 1px 2px rgb(0 0 0 / 20%);
   z-index: 99;
   position: fixed;
