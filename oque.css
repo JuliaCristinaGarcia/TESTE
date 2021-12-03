@@ -123,7 +123,7 @@ ul.links li a{
     color: black;
     font-family: 'Poppins', sans-serif;
     height: 100%;
-    font-size: 0.952vw;
+    font-size: 1em;
     text-decoration: none;
     white-space: nowrap;
     font-weight: 600;
