@@ -836,6 +836,36 @@ input[type="radio"]{
   
   
   }
+
+
+  @media only screen and (max-width:600px){
+    .contente {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    z-index: 2;
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-top: 260px;
+  }
+      
+    .main-card .cards .card{
+      width: 100%;
+    }
+      
+    
+  ul.links li a {
+    color: black;
+    height: 100%;
+    font-size: 2vw;
+    text-decoration: none;
+    white-space: nowrap;
+    font-family: 'Poppins', sans-serif;
+  }
+
+}
+  
   
   
   @media only screen and (max-width:1300px){
@@ -1124,7 +1154,10 @@ width: 13%;
   
  
   }
-  
+
+
+
+
   /*TELA PARA CELULAR
   @media only screen and (max-device-width:770px){
   */
@@ -1366,19 +1399,6 @@ img.minotauro {
 
   }
   
-  @media only screen and (max-width:600px){
-    .contente {
-    position: relative;
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    z-index: 2;
-    flex-direction: column-reverse;
-    align-items: center;
-    margin-top: 260px;
-  }
-}
-  
   
   /* device- */
   
@@ -1440,10 +1460,5 @@ img.minotauro {
       width: calc(100% / 2 - 10px);
     }
   }
-  @media (max-width: 600px) {
-    .main-card .cards .card{
-      /* margin: 20px 0 10px 0; */
-      width: 100%;
-    }
-  }
+
   
