@@ -878,7 +878,12 @@ input[type="radio"]{
   
   }
   
-  
+ @media only screen and (max-width:800px){
+     .line{
+     display:none
+     }
+
+}
   
   @media only screen and (max-width:1100px){
       .textBox {
