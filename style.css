@@ -858,7 +858,7 @@ input[type="radio"]{
   ul.links li a {
     color: black;
     height: 100%;
-    font-size: 2vw;
+    font-size: 3vw;
     text-decoration: none;
     white-space: nowrap;
     font-family: 'Poppins', sans-serif;
@@ -1193,6 +1193,15 @@ width: 13%;
     filter: brightness(0.5);
     height: 70vh;
     }
+      
+  ul.links li a {
+    color: black;
+    height: 100%;
+    font-size: 2vw;
+    text-decoration: none;
+    white-space: nowrap;
+    font-family: 'Poppins', sans-serif;
+  }
   
 
       
