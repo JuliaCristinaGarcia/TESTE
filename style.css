@@ -1021,6 +1021,16 @@ input[type="radio"]{
   .imagem.aos-init.aos-animate {
     width: 100%;
   }
+      
+   div.line {
+    position: absolute;
+    height: 3px;
+    width: 8%;
+    left: 30vw;
+    background: #dfc291;
+    bottom: 25px;
+    transition: all 0.3s ease;
+   }
   
   
   }
