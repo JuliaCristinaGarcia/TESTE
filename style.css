@@ -14,7 +14,10 @@
     overflow-x: hidden;
   }
   
-  
+  body,html{
+    position: relative;
+    overflow-x: hidden;
+  }
   
   
   
@@ -25,7 +28,7 @@
   nav.nav {
     top: 0;
     left: 0;
-    width: 100%;
+    width: 100vw;
     height: 70px;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
     z-index: 99;
@@ -977,7 +980,11 @@ input[type="radio"]{
         align-items: center;
         justify-content: space-between;
     }
-  
+    
+    body,html{
+      position: relative;
+      overflow-x: hidden;
+    }
     body{
         overflow-x: hidden;
     }
@@ -1161,8 +1168,23 @@ width: 13%;
   /*TELA PARA CELULAR
   @media only screen and (max-device-width:770px){
   */
-  @media only screen and (max-width:790px){
+
+
+
+
+
+    @media only screen and (max-width:790px){
   
+      .pergunta {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        background: #eeeeee;
+        padding: 20px;
+        font-family: 'Poppins';
+    }
+
     div.opcoes .fa-bars{
         display: block;
       }
@@ -1178,15 +1200,15 @@ width: 13%;
       color: white;
   }
 
-    .img_texto p {
-      font-size: 0.9em;
-    }
+  .img_texto p {
+    font-size: 4.5vw;
+    margin: 0vw 1vw 0vw 0vw;
+}
 
-
-    .img_texto h1 {
-    font-size: 3.7em;
-    margin: 0vw 0vw 2vw 0vw;
-    }
+.img_texto h1 {
+  font-size: 11vw;
+  margin: 0vw 1vw 2vw 0vw;
+}
 
     img.minotauro {
     width: 100%;
@@ -1215,7 +1237,7 @@ width: 13%;
         left: -100%;
         display: block;
         max-width: 270px;
-        width: 100%;
+        width: 100vw;
         background:  #fff;
         line-height: 40px;
         padding: 20px;
@@ -1277,16 +1299,7 @@ width: 13%;
         overflow: auto;
     }
   
-  
-    ul.links li a {
-        color: black;
-        height: 100%;
-        font-size: 3vw;
-        text-decoration: none;
-        white-space: nowrap;
-        font-family: 'Poppins', sans-serif;
-    }
-  
+
     a.opnx{
         color: #e2c89c;
         border-bottom: 3px solid;
@@ -1338,6 +1351,30 @@ width: 13%;
     }
 
   }
+
+
+
+
+
+
+
+
+  
+  @media only screen and (max-width:660px){
+
+    ul.links li a {
+        color: black;
+        height: 100%;
+        font-size: 3vw;
+        text-decoration: none;
+        white-space: nowrap;
+        font-family: 'Poppins', sans-serif;
+    }
+
+  }
+
+
+
   
   /* device- */
   
@@ -1345,14 +1382,22 @@ width: 13%;
     nav.nav {
         top: 0;
         left: 0;
-        width: 100%;
+        width: 100vw;
         height: 70px;
         background-color: #fff;
         box-shadow: 0 1px 2px rgb(0 0 0 / 20%);
         z-index: 99;
         position: fixed;
     }
-        
+
+    .cimaa h2 {
+      font-size: 2.2em;
+      text-align: center;
+  }
+  .main-card .cards .card {
+    margin: 20px 0 10px 0;
+    width: calc(100vw / 2 - 10px);
+}     
     body{
       overflow-x: hidden;
     }
@@ -1384,25 +1429,36 @@ width: 13%;
 
     .img_texto {
       font-family: 'Poppins';
-      margin: -80vw 0vw 0vw 5vw;
+      margin: -113vw 0vw 0vw 5vw;
       position: absolute;
       color: white;
   }
-
-  .img_texto p {
-    font-size: 0.9em;
-}
-
-
-.img_texto h1 {
-  font-size: 3.7em;
-  margin: 0vw 0vw 2vw 0vw;
-}
 
 img.minotauro {
   width: 100%;
   filter: brightness(0.5);
   height: 80vh;
+}
+ul.links li a {
+  color: black;
+  height: 100%;
+  font-size: 3vw;
+  text-decoration: none;
+  white-space: nowrap;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+footer {
+  position: relative;
+  width: 100%;
+  background: #edad40;
+  min-height: 100px;
+  padding: 20px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 
@@ -1413,15 +1469,46 @@ img.minotauro {
   
   @media only screen and (max-width:370px){
     div.opcoes{
-        max-width: 100%;
+        max-width: 100vw;
     }
 
         
     body{
       overflow-x: hidden;
     }
+
+    ul.links li a {
+      color: black;
+      height: 90%;
+      font-size: 4vw;
+      text-decoration: none;
+      white-space: nowrap;
+      font-family: 'Poppins', sans-serif;
+  }
+
+  ul.links {
+    display: block;
+    margin: 0px -25px 10px 0px;
+    text-align-last: center;
+}
+
+
+ul.links li {
+  display: block;
+  padding: 40px 5px 5px 5px;
+  text-align: -webkit-left;
+}
+
+div.logo-menucel {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 15px 15px 0px 60px;
+}
   
   }
+
+
 
 
 
@@ -1464,10 +1551,25 @@ img.minotauro {
 
 
   @media (max-width: 768px) {
-    .main-card .cards .card{
-      margin: 20px 0 10px 0;
-      width: calc(100% / 2 - 10px);
-    }
+    .main-card .cards .card {
+      margin: 20px 20px 10px 0;
+      width: 100vw;
+  }
+  .cards .card .content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.conhe h2 {
+  text-align: center;
+  font-size: 2em;
+  font-family: 'Poppins';
+  color: white;
+}
   }
 
   
