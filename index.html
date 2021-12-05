@@ -20,6 +20,285 @@
     <link rel="shortcut icon" href="imagens/Free.jpg">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <title>Mitologia - Home</title>
+    <style>
+           
+.tecto h2::before {
+    content: '';
+    position: absolute;
+    height: 0.4vh;
+    width: 10vw;
+    border-radius: 15px;
+    background: white;
+    margin: 143px 0vw 0vw -5px;
+}
+
+.tecto h2::after {
+    content: '';
+    position: absolute;
+    background: white;
+    height: 0.4vh;
+    width: 9vw;
+    border-radius: 15px;
+    margin: 70px 0vw 0px -167px;
+}
+
+@media only screen and (max-width:1300px){
+  .tecto h2::after {
+    content: '';
+    position: absolute;
+    background: white;
+    height: 0.4vh;
+    width: 9vw;
+    border-radius: 15px;
+    margin: 70px 0vw 0px -167px;
+}
+
+.tecto h2::before {
+    content: '';
+    position: absolute;
+    height: 0.4vh;
+    width: 9vw;
+    border-radius: 15px;
+    background: white;
+    margin: 57px 0vw 0vw -5px;
+}
+}
+
+
+@media only screen and (max-width:375px){
+
+  .par {
+    width: 100%;
+    height: 33vh;
+    background: linear-gradient(49deg, #b9aea9, #dfaa87);
+    display: flex;
+    margin: 70vw 0 0vw 0;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    padding: 15vw 1vw 15vw 0vw;
+}
+
+.par h2 {
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Poppins';
+    color: white;
+}
+}
+
+
+@media only screen and (max-width:380px){
+nav.nav {
+    top: 0;
+    left: 0;
+    width: 102vw;
+    height: 70px;
+    background-color: #fff;
+    box-shadow: 0 1px 2px rgb(0 0 0 / 20%);
+    z-index: 99;
+    position: fixed;
+}
+ul.links li a {
+    color: black;
+    height: 100%;
+    font-size: 4.4vw;
+    text-decoration: none;
+    white-space: nowrap;
+    font-family: 'Poppins', sans-serif;
+}
+ul.links li a {
+    color: black;
+    height: 100%;
+    font-size: 3.4vw;
+    text-decoration: none;
+    white-space: nowrap;
+    font-family: 'Poppins', sans-serif;
+}
+
+div.menu {
+    height: 100%;
+    margin: auto;
+    position: absolute;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+div.menu i.fa-bars, div.logo-menucel .bx-x {
+    color: black;
+    font-size: 25px;
+    font-weight: 600;
+    margin: 0vw 3vw 0vw;
+}div.logo {
+    margin: 0 20.445vw 0 2.445vw;
+}
+.contente .imgBox img {
+    position: relative;
+    z-index: 1;
+    max-width: 370px;
+    margin: -28vw 0vw 18vw 0vw;
+}
+
+.contente .imgBox::before {
+    content: '';
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background: #dfc495;
+    border-radius: 50%;
+    margin: 0vw 0vw 0vw 0vw;
+}
+.textBox p {
+    font-family: 'Poppins';
+    font-size: 15px;
+    margin: 1vw 0vw 1vw 0vw;
+    transition-property: opacity,transform,-webkit-transform;
+}
+.textBox h2 {
+    font-size: 11.7vw;
+    font-family: 'Poppins';
+    font-weight: 700;
+    line-height: 1.4em;
+    margin-bottom: 10px;
+    transition-property: opacity,transform,-webkit-transform;
+}
+
+.imgg img{
+    width: 570px;
+    margin: 5vw 0vw 8vw -29vw;
+
+}
+
+.facalogin h3 {
+    text-align: center;
+    font-size: 1.3em;
+    font-family: 'Poppins';
+    color: white;
+    margin: 5vw 2vw 5vw 2vw;
+}
+
+.buttons .button {
+    position: relative;
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    padding: 13px 22px;
+    background: linear-gradient(90deg, #fbdfae, #edad40);
+    border-radius: 45px;
+    margin: 10px 10px 34px 10px;
+    font-family: 'Poppins';
+    top: 3vw;
+    font-size: 27px;
+    font-weight: 900;
+    text-decoration: none;
+    box-shadow: 3px 5px rgba(0, 0, 0, 0.1);
+    border-top: 1px solid rgba(0,0,0,0.1);
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+footer {
+    position: relative;
+    width: 100%;
+    background: #edad40;
+    min-height: 100px;
+    padding: 20px 27px 20px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+}
+
+@media only screen and (max-width:320px){
+  ul.links li a {
+    color: black;
+    height: 100%;
+    font-size: 4.4vw;
+    text-decoration: none;
+    white-space: nowrap;
+    font-family: 'Poppins', sans-serif;
+}
+
+.texto {
+    background: #e7e7e7;
+    margin: 200vw 1vw 0vw 55.3vw;
+    height: auto;
+    padding: 1.7em;
+    font-family: 'Poppins';
+    flex: 1;
+    box-shadow: 5px 5px 15px rgb(0 0 0 / 31%);
+    border-radius: 8px;
+    width: 95vw;
+}
+
+.texto h2 {
+    font-family: 'Poppins';
+    font-size: 40px;
+    margin-bottom: 1vw;
+}
+
+div.image img {
+  width: 150%;
+  height: 60vh;
+}
+
+
+}
+
+@media only screen and (max-width:575px){
+.produtos:before, .produtosfilmes:before, .produtosmoda:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    clip-path: circle(70% at right 50%);
+    background: #e6e6e6;
+    background-image: linear-gradient( 0deg,  #e2c89c 10%, #edad40 100%);
+}
+
+.produtosdecorcao:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    clip-path: circle(70% at right 50%);
+    background: #e6e6e6;
+    background-image: linear-gradient( 0deg,  #edad40 10%, #e2c89c 100%);
+}
+
+
+
+.produtosdecoracao:before, .produtoslivro:before {
+    background-image: linear-gradient( 0deg,  #edad40 10%, #e2c89c 100%);
+}
+.produtoslivro:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    clip-path: circle(67% at right 50%);
+    background: #e6e6e6;
+    background-image: linear-gradient( 0deg,  #edad40 10%, #e2c89c 100%);
+}
+.facalogin {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    padding: 3vw 1vw 3vw 0vw;
+    margin: 0vw 0vw 10vw 0vw;
+    background-image: linear-gradient(0deg, #fbb338 10%, #e2c89c 100%);
+}
+}
+
+@media only screen and (max-width: 400px){
+  .par h2 {
+      font-size: 2em;
+    }}
+
+    </style>
 </head>
 <body>
 
@@ -44,8 +323,8 @@
         <div class="menu">
             <i class="fas fa-bars"></i>
             <div class="logo">
-                <img class="computador" src="imagens/logoo.jpg" alt="Logo da Empresa woodcel">
-                <img class="celular" src="imagens/logoo2.jpg" alt="Logo da Empresa woodcel">
+                <img class="computador" src="imagens/woodcel_branco.jpg" alt="Logo da Empresa woodcel">
+                <img class="celular" src="imagens/woodcel_branco.jpg" alt="Logo da Empresa woodcel">
             </div>
 
             <div class="opcoes">
@@ -386,13 +665,13 @@
 
 
     
-    <div class="par" data-aos="fade-up" data-aos-mirror="false" style="  background-image: linear-gradient( 0deg,  #edad40 10%, #e2c89c 100%);">
+    <div class="par" style="  background-image: linear-gradient( 0deg,  #edad40 10%, #e2c89c 100%);">
         <h2>Você pensa em comprar algo relacionado a sua mitoloigia favorita? </h2>
     </div>
 
 
  
-    <div class="produtos" data-aos="fade-up" data-aos-mirror="false">
+    <div class="produtos">
         <div class="contasub">
           <div class="boxing one">
             <div class="details">

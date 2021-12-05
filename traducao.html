@@ -21,6 +21,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <title>Mythology - Home</title>
     <style>
+
+      
 .tecto h2::before {
     content: '';
     position: absolute;
@@ -60,7 +62,230 @@
     border-radius: 15px;
     background: white;
     margin: 57px 0vw 0vw -5px;
-}}
+}
+}
+
+
+@media only screen and (max-width:375px){
+
+  .par {
+    width: 100%;
+    height: 33vh;
+    background: linear-gradient(49deg, #b9aea9, #dfaa87);
+    display: flex;
+    margin: 70vw 0 0vw 0;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    padding: 15vw 1vw 15vw 0vw;
+}
+
+.par h2 {
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Poppins';
+    color: white;
+}
+}
+
+
+@media only screen and (max-width:380px){
+nav.nav {
+    top: 0;
+    left: 0;
+    width: 102vw;
+    height: 70px;
+    background-color: #fff;
+    box-shadow: 0 1px 2px rgb(0 0 0 / 20%);
+    z-index: 99;
+    position: fixed;
+}
+ul.links li a {
+    color: black;
+    height: 100%;
+    font-size: 4.4vw;
+    text-decoration: none;
+    white-space: nowrap;
+    font-family: 'Poppins', sans-serif;
+}
+ul.links li a {
+    color: black;
+    height: 100%;
+    font-size: 3.4vw;
+    text-decoration: none;
+    white-space: nowrap;
+    font-family: 'Poppins', sans-serif;
+}
+
+div.menu {
+    height: 100%;
+    margin: auto;
+    position: absolute;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+div.menu i.fa-bars, div.logo-menucel .bx-x {
+    color: black;
+    font-size: 25px;
+    font-weight: 600;
+    margin: 0vw 3vw 0vw;
+}div.logo {
+    margin: 0 20.445vw 0 2.445vw;
+}
+.contente .imgBox img {
+    position: relative;
+    z-index: 1;
+    max-width: 370px;
+    margin: -28vw 0vw 18vw 0vw;
+}
+
+.contente .imgBox::before {
+    content: '';
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background: #dfc495;
+    border-radius: 50%;
+    margin: 0vw 0vw 0vw 0vw;
+}
+.textBox p {
+    font-family: 'Poppins';
+    font-size: 15px;
+    margin: 1vw 0vw 1vw 0vw;
+    transition-property: opacity,transform,-webkit-transform;
+}
+.textBox h2 {
+    font-size: 11.7vw;
+    font-family: 'Poppins';
+    font-weight: 700;
+    line-height: 1.4em;
+    margin-bottom: 10px;
+    transition-property: opacity,transform,-webkit-transform;
+}
+
+.imgg img{
+    width: 570px;
+    margin: 5vw 0vw 8vw -29vw;
+
+}
+
+.facalogin h3 {
+    text-align: center;
+    font-size: 1.3em;
+    font-family: 'Poppins';
+    color: white;
+    margin: 5vw 2vw 5vw 2vw;
+}
+
+.buttons .button {
+    position: relative;
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    padding: 13px 22px;
+    background: linear-gradient(90deg, #fbdfae, #edad40);
+    border-radius: 45px;
+    margin: 10px 10px 34px 10px;
+    font-family: 'Poppins';
+    top: 3vw;
+    font-size: 27px;
+    font-weight: 900;
+    text-decoration: none;
+    box-shadow: 3px 5px rgba(0, 0, 0, 0.1);
+    border-top: 1px solid rgba(0,0,0,0.1);
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+footer {
+    position: relative;
+    width: 100%;
+    background: #edad40;
+    min-height: 100px;
+    padding: 20px 27px 20px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+}
+
+@media only screen and (max-width:320px){
+  ul.links li a {
+    color: black;
+    height: 100%;
+    font-size: 4.4vw;
+    text-decoration: none;
+    white-space: nowrap;
+    font-family: 'Poppins', sans-serif;
+}
+
+.texto {
+    background: #e7e7e7;
+    margin: 200vw 1vw 0vw 55.3vw;
+    height: auto;
+    padding: 1.7em;
+    font-family: 'Poppins';
+    flex: 1;
+    box-shadow: 5px 5px 15px rgb(0 0 0 / 31%);
+    border-radius: 8px;
+    width: 95vw;
+}
+
+.texto h2 {
+    font-family: 'Poppins';
+    font-size: 40px;
+    margin-bottom: 1vw;
+}
+
+div.image img {
+  width: 150%;
+  height: 60vh;
+}
+
+
+}
+
+@media only screen and (max-width:575px){
+.produtos:before, .produtosfilmes:before, .produtosmoda:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    clip-path: circle(70% at right 50%);
+    background: #e6e6e6;
+    background-image: linear-gradient( 0deg,  #e2c89c 10%, #edad40 100%);
+}
+
+.produtosdecorcao:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    clip-path: circle(70% at right 50%);
+    background: #e6e6e6;
+    background-image: linear-gradient( 0deg,  #edad40 10%, #e2c89c 100%);
+}
+
+
+
+.produtosdecoracao:before, .produtoslivro:before {
+    background-image: linear-gradient( 0deg,  #edad40 10%, #e2c89c 100%);
+}
+.produtoslivro:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    clip-path: circle(67% at right 50%);
+    background: #e6e6e6;
+    background-image: linear-gradient( 0deg,  #edad40 10%, #e2c89c 100%);
+}
+
+}
+
 
     </style>
 </head>
@@ -87,8 +312,8 @@
         <div class="menu">
             <i class="fas fa-bars"></i>
             <div class="logo">
-                <img class="computador" src="imagens/logoo.jpg" alt="Logo da Empresa woodcel">
-                <img class="celular" src="imagens/logoo2.jpg" alt="Logo da Empresa woodcel">
+                <img class="computador" src="imagens/woodcel_branco.jpg" alt="Logo da Empresa woodcel">
+                <img class="celular" src="imagens/woodcel_branco.jpg" alt="Logo da Empresa woodcel">
             </div>
 
             <div class="opcoes">
@@ -194,8 +419,8 @@
     <div class="contente" id="conteudo">
 
             <div class="textBox">
-                <h2 data-aos="fade-right">Vlet's talk about <span>Mythology?</span></h2>
-                <p data-aos="fade-right">Who has never been interested in mythology should shoot the first arrow... oops, rock! The truth, however, is that we end up getting lost among so many myths, so many gods, goddesses and monsters, so many names and events. And several points are kind of unanswered in our minds. However, these answers – and many others – are on this site!</p>
+                <h2>Vlet's talk about <span>Mythology?</span></h2>
+                <p>Who has never been interested in mythology should shoot the first arrow... oops, rock! The truth, however, is that we end up getting lost among so many myths, so many gods, goddesses and monsters, so many names and events. And several points are kind of unanswered in our minds. However, these answers – and many others – are on this site!</p>
                 <a href="oque.html">Know more!</a>
             </div>
 
@@ -344,13 +569,13 @@
 
 
 
-    <div class="par" data-aos="fade-up" data-aos-mirror="false">
+    <div class="par">
         <h2>Don't Think It's Over! </h2>
     </div>
 
 
 
-    <div class="blogg" data-aos="fade-up" data-aos-mirror="false">
+    <div class="blogg">
 
         <div class="cimaa">
             <h2>Blog</h2>
@@ -419,13 +644,13 @@
 
 
     
-    <div class="par" data-aos="fade-up" style="  background-image: linear-gradient( 0deg,  #edad40 10%, #e2c89c 100%);">
+    <div class="par" style="  background-image: linear-gradient( 0deg,  #edad40 10%, #e2c89c 100%);">
         <h2>Are you thinking about buying something related to your favorite mythology? </h2>
     </div>
 
 
  
-    <div class="produtos" data-aos="fade-up" data-aos-mirror="false">
+    <div class="produtos">
         <div class="contasub">
           <div class="boxing one">
             <div class="details">
@@ -433,7 +658,7 @@
               <p>Plus, you can also buy your favorite mythology-themed stuff that you like best! Here we have books, movies, decorations, and even clothes! Check it out below: </p>
             </div>
             <div class="button1">
-              <a href="produtos/produtos.html">        
+              <a href="produtos.html">        
                 <button>Know more!</button>
               </a>
             </div>
@@ -441,12 +666,12 @@
           <div class="boxing two">
             <div class="imagee-box">
               <div class="imageee">
-                <img src="carinho.png" alt="">
+                <img src="imagens/carinho.png" alt="">
               </div>
               <div class="info">
                 <div class="name">Make this whole process easier by logging into our website</div>
                 <div class="button2">
-                  <a href="login/login.html">
+                  <a href="login.html">
                   <button>Login</button>
                 </a>
                 </div>
@@ -465,7 +690,7 @@
               <p>If you like mythology, how about buying some decorations to make your home a little more cozy?</p>
             </div>
             <div class="button1">
-              <a href="produtos/decorações/decoracao.html">        
+              <a href="decoracao.html">        
                 <button>Saiba Mais!</button>
               </a>
             </div>
@@ -473,12 +698,12 @@
           <div class="boxing two">
             <div class="imagee-box">
               <div class="imageee">
-                <img src="estatuas-e-esculturas-04-removebg-preview.png" alt="">
+                <img src="imagens/estatuas-e-esculturas-04-removebg-preview.png" alt="">
               </div>
               <div class="info">
                 <div class="name">Make this whole process easier by logging into our website</div>
                 <div class="button2">
-                  <a href="login/login.html">
+                  <a href="login.html">
                     <button>Login</button>
                   </a>
                 </div>
@@ -497,7 +722,7 @@
               <p>In addition to having fun with the works, immersing yourself in this universe can help you better understand customs, values ​​and ideals that impacted Western culture and there's nothing better than watching a good movie, right?</p>
             </div>
             <div class="button1">
-              <a href="produtos/filmes/filmes.html">        
+              <a href="filmes.html">        
                 <button>Know more!</button>
               </a>
             </div>
@@ -505,12 +730,12 @@
           <div class="boxing two">
             <div class="imagee-box">
               <div class="imageee">
-                <img src="filme.png" alt="" style="  border-radius: 50%;">
+                <img src="imagens/filme.png" alt="" style="  border-radius: 50%;">
               </div>
               <div class="info">
                 <div class="name">Make this whole process easier by logging into our website</div>
                 <div class="button2">
-                  <a href="login/login.html">
+                  <a href="login.html">
                     <button>Login</button>
                   </a>
                 </div>
@@ -528,7 +753,7 @@
               <p>Discover the best books that explore the myths that each society has created to explain the world, from the famous Greek and Roman legends to African and Japanese stories.</p>
             </div>
             <div class="button1">
-              <a href="produtos/livros/livros.html">        
+              <a href="livros.html">        
                 <button>Saiba Mais!</button>
               </a>
       
@@ -537,12 +762,12 @@
           <div class="boxing two">
             <div class="imagee-box">
               <div class="imageee">
-                <img src="Untitled design.png" alt="">
+                <img src="imagens/Untitled design.png" alt="">
               </div>
               <div class="info">
                 <div class="name">Make this whole process easier by logging into our website</div>
                 <div class="button2">
-                  <a href="login/login.html">
+                  <a href="login.html">
                     <button>Login</button>
                   </a>
                 </div>
@@ -561,7 +786,7 @@
               <p>And for those of you who think that mythology is limited to decorations, books and movies, I have some news for you... Here we have everything, hats, shoes, t-shirts, hoodies and much more!</p>
             </div>
             <div class="button1">
-              <a href="produtos/moda/moda.html">        
+              <a href="moda.html">        
                 <button>Saiba Mais!</button>
               </a>
             </div>
@@ -569,12 +794,12 @@
           <div class="boxing two">
             <div class="imagee-box">
               <div class="imageee">
-                <img src="moda.png" alt="">
+                <img src="imagens/moda.png" alt="">
               </div>
               <div class="info">
                 <div class="name">Make this whole process easier by logging into our website</div>
                 <div class="button2">
-                  <a href="login/login.html">
+                  <a href="login.html">
                     <button>Login</button>
                   </a>
                 </div>
