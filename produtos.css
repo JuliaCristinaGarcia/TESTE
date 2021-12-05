@@ -27,7 +27,7 @@ nav.cabecalho {
     height: 8vh;
     margin: 2vw 0vw 1vw 4vw;
     position: absolute;
-    width: 100%;
+    width: 100vw;
     justify-content: flex-start;
 }
 
@@ -202,7 +202,7 @@ ul.nav-list li a:hover{
     align-items: flex-end;
     background: #fff;
     min-height: 80vh;
-    width: 100%;
+    width: 100vw;
     font-family: 'Poppins';
   }
   
@@ -210,7 +210,7 @@ ul.nav-list li a:hover{
   
   footer {
     position: relative;
-    width: 100%;
+    width: 100vw;
     background: #edad40;
     min-height: 100px;
     padding: 20px 50px;
@@ -397,7 +397,7 @@ nav.cabecalho {
   height: 8vh;
   position: absolute;
   margin: 0;
-  width: 100%;
+  width: 100vw;
   background: #F7F4F2;
   justify-content: flex-start;
 }
@@ -545,18 +545,74 @@ div.logo {
 
 }
 
-@media only screen and (max-width: 630px){
+@media only screen and (max-width: 660px){
   div.img img {
     width: 100%;
     display: none;
 }
-
+.text h2 {
+  color: #ac8609;
+  font-family: 'Poppins';
+  font-size: 7vw;
+}
 
 header {
-  position: relative;
-  background: linear-gradient(120deg, #fff, #fff 70%, #e9c85c 62%, #e9c85c 100%);
-  min-height: 100vh;
-  padding: 0;
-  display: flex;
+position: relative;
+background: linear-gradient(120deg, #FFF, #fff 50%, #E9C85A 50%, #e9c85c 100%);
+min-height: 100vh;
+padding: 0;
+display: flex;
+}
+}
+
+
+
+
+@media only screen and (max-width: 360px){
+  .mobile-menu div {
+    width: 8.343vw;
+    height: 2px;
+    background: black;
+    margin: 8px;
+    transition: 0.3s;
+}
+
+}
+
+
+@media only screen and (max-width: 430px){
+
+  .text h2 {
+    color: #ac8609;
+    font-family: 'Poppins';
+    font-size: 6vw;
+    line-height: 2;
+}
+}
+
+@media only screen and (max-width: 370px){
+
+  .text h2 {
+    color: #ac8609;
+    font-family: 'Poppins';
+    font-size: 7vw;
+    line-height: 2;
+}
+.box .back-face {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  height: 280px;
+  width: 88vw;
+  padding: 30px;
+  color: #fff;
+  opacity: 0;
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+  background: linear-gradient(-135deg, #e9c85c, #e1c775);
+  transform: translateY(110px) rotateX(-90deg);
+  box-shadow: 0px 5px 20px 0px rgba(0, 81, 250, 0.1);
+  transition: all 0.5s ease;
 }
 }

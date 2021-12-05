@@ -338,6 +338,7 @@ nav.cabecalho {
  font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
  background: #F7F4F2;
  height: 8vh;
+ width: 100vw;
  justify-content: space-between;
 }
 
@@ -507,7 +508,7 @@ footer .wave{
  left: 0;
  width: 100%;
  height: 100px;
- background: url(wave_filmes.png);
+ background: url(imagens/wave_filmes.png);
  background-size: 1000px 100px;
 }
 
@@ -574,9 +575,23 @@ footer .wave#wave4{
 
 
 
+@media screen and (max-width: 375px) {
+.titulo {
+  color: white;
+  margin: 0 0 40vw 0px;
+  font-size: 35px;
+  font-weight: bolder;
+}
+
+div.menu p {
+  font-family: 'Poppins';
+  font-size: 16px;
+  padding: 0 5px;
+  transition: all .2s ease;
+}
 
 
-
+}
 
 
 
